@@ -19,5 +19,18 @@ print(grocery_list)
 
 # Add "Coffee" to grocery list and print the updated list
     # Use the .append function followed by the object you want added
+    # By default it will add these objects to the end of the list
 grocery_list.append("Coffee")
 print(grocery_list)
+
+# .index function followed by a specfici object inside the index 
+    # Returns the index number in the list for that object
+    # Milk is 0 since it is the first object in the list
+print(grocery_list.index("Milk"))
+
+    # Coffee is 4 since in this list of 5 objects, it is the last object
+print(grocery_list.index("Coffee"))
+
+# len() returns the length of a list
+    # There are 5 objects in this list so it tells me that there are 5 objects
+print(len(grocery_list))

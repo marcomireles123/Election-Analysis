@@ -11,3 +11,8 @@ my_pet = {
     # Refer to the dictionary and then the individual key-value pair you would like to print
 print(f'Hello my name is {my_pet["name"]} and I am {my_pet["age"]}.') 
 
+# Again using f-string so we do not have to convnert manually 
+    # Use len function to retrieve a number for the hobbies list
+print(f'I have {len(my_pet["hobbies"])} hobbies!') 
+
+

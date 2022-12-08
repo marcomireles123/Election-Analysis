@@ -15,4 +15,6 @@ print(f'Hello my name is {my_pet["name"]} and I am {my_pet["age"]}.')
     # Use len function to retrieve a number for the hobbies list
 print(f'I have {len(my_pet["hobbies"])} hobbies!') 
 
-
+# We use index numbering to retrieve a specific object in the hobbiest list
+    # In this case I am printing the second object "barking" which is index #1 
+print(f'My favorite hobbie is {my_pet["hobbies"][1]}.') 

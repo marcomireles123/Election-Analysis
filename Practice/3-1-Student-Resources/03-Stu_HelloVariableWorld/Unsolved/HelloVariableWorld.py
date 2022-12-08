@@ -29,10 +29,20 @@ print("Hello " + name + "!")
 print("You live in the " + country)
 
 # Print out the user's age
-print("You are " +str(age) + " years old")
+# str(age) is converting age; which is an integer; into a string so that it can print out normally
+    # Without converting, you will get an erorr when printing
+print("You are " + str(age) + " years old")
+
+# This is the refactored code using the f-string
+    # print(f"You are {age} years old")
 
 # With an f-string, print out the daily wage that was calculated
+# An f-string is preferred because it does not need conversion 
+    # So this line of code will work even though daily_wage is an integer type
 print(f"You make {daily_wage} per day")
 
 # With an f-string, print out whether the users were satisfied
+# Once again the f-string is being used 
+    # Since the variable "satisfied" is a boolean  
+        # Would have to be converted if we were not using an f-string
 print(f"Are you satisfied with your current wage? {satisfied}") 

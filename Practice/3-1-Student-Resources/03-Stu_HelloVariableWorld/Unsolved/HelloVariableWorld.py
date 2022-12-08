@@ -9,7 +9,7 @@ country = "United States of America"
 age = 25
 
 # Create a variable called 'hourly_wage' that holds an integer
-hourly_wage = 15
+hourly_wage = 20
 
 # Calculate the daily wage for the user
 daily_wage = hourly_wage * 8
@@ -22,16 +22,17 @@ satisfied = True
 # name is the variable
 # "!" is also a string 
 # Effectively you are building a formula to print a desired statement
-print("Hello" + name + "!")
+# Make sure you leave a space after Hello and " otherwise Hello and the name will together
+print("Hello " + name + "!")
 
 # Print out what country the user entered
-print("You live in" + country)
+print("You live in the " + country)
 
 # Print out the user's age
-print("You are" +str(age) + "years old")
+print("You are " +str(age) + " years old")
 
 # With an f-string, print out the daily wage that was calculated
-
+print(f"You make {daily_wage} per day")
 
 # With an f-string, print out whether the users were satisfied
-
+print(f"Are you satisfied with your current wage? {satisfied}") 

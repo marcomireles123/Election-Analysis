@@ -48,8 +48,8 @@ print("Hello " + name + "!")
 print("You live in the " + country)
 
 # Print out the user's age
-# str(age) is converting age; which is an integer; into a string so that it can print out normally
-    # Without converting, you will get an erorr when printing
+    # str(age) is converting age; which is an integer; into a string so that it can print out normally
+        # Without converting, you will get an erorr when attempting to print
 print("You are " + str(age) + " years old")
 
 # This is the refactored code using the f-string

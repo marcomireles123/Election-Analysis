@@ -37,5 +37,8 @@ print(f'I have {len(my_pet["hobbies"])} hobbies!')
         # [1] is the index no. of the object I want to retrieve
 print(f'My favorite hobbie is {my_pet["hobbies"][1]}.') 
 
-# Here to call a key-value pair of a dictionary within a dictionary you simply have to print the dictionary and then its key pair variable inside the dictionary
+# Here to call a key-value pair of a dictionary within a dictionary you simply have to print the dictionary and then its key variable inside that dictionary
+    # my_pet is the dict.
+    # 'wake_up' is the dict. inside my_pet
+    # 'Wednesday' is the key variable to the key-pair value I want to print
 print(f'I wake up at {my_pet["wake_up"]["Wednesday"]}.')

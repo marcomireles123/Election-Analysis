@@ -23,7 +23,11 @@ my_pet = {
 print(f'Hello my name is {my_pet["name"]} and I am {my_pet["age"]}.') 
 
 # Again using f-string so we do not have to convnert manually 
-    # Use len function to retrieve a number for the hobbies list
+    # Use the len() function to retrieve how many object are in the the hobbies list
+        # This looks like {len(my_pet['hobbies'])}
+            # my_pet is the dict.
+            # 'hobbies' is the list inside the dict.
+            # This will print out the number 3 since there are only 3 objects in this list
 print(f'I have {len(my_pet["hobbies"])} hobbies!') 
 
 # We use index numbering to retrieve a specific object in the hobbiest list

@@ -31,9 +31,9 @@ print(grocery_list)
     # Milk is 0 since it is the first object in the list
 print(grocery_list.index("Milk"))
 
-    # Coffee is 4 since in this list of 5 objects, it is the last object
+    # Coffee is 4 since in this list of 5 objects, it is the last object in the index
 print(grocery_list.index("Coffee"))
 
 # len() returns the length of a list
-    # There are 5 objects in this list so it tells me that there are 5 objects
+    # There are 5 objects in this list so it prints out that there are 5 objects
 print(len(grocery_list))

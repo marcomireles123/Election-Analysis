@@ -52,8 +52,9 @@ print("You live in the " + country)
         # Without converting, you will get an erorr when attempting to print
 print("You are " + str(age) + " years old")
 
-# This is the refactored code using the f-string
-    # print(f"You are {age} years old")
+# Use an f-string instead, to prevent using the 'str()' method every time
+    # This is the refactored code using the f-string
+# print(f"You are {age} years old")
 
 # With an f-string, print out the daily wage that was calculated
 # An f-string is preferred because it does not need conversion 
@@ -61,7 +62,5 @@ print("You are " + str(age) + " years old")
 print(f"You make {daily_wage} per day")
 
 # With an f-string, print out whether the users were satisfied
-# Once again the f-string is being used 
-    # Since the variable "satisfied" is a boolean  
-        # Would have to be converted if we were not using an f-string
+# Once again the f-string is being used to convert the boolean 'satisfied' into a string
 print(f"Are you satisfied with your current wage? {satisfied}") 

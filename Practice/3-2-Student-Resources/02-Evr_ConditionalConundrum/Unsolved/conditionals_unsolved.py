@@ -3,6 +3,8 @@ x = 5
 y = 10
 if 2 * x > 10:
     print("Question 1 works!")
+
+# This will print
 else:
     print("oooo needs some work")
 
@@ -10,6 +12,7 @@ else:
 # 2.
 x = 5
 y = 10
+# This will print
 if len("Dog") < x:
     print("Question 2 works!")
 else:
@@ -18,6 +21,8 @@ else:
 # 3.
 x = 2
 y = 5
+
+# This will print
 if (x ** 3 >= y) and (y ** 2 < 26):
     print("GOT QUESTION 3!")
 else:
@@ -33,6 +38,8 @@ if name in group_one:
     print(name + " is in the first group")
 elif name in group_two:
     print(name + " is in group two")
+
+# This will print since "Dan" is ONLY in group_three
 elif name in group_three:
     print(name + " is in group three")
 else:
@@ -50,6 +57,9 @@ elif (height > 65) and (age >= 18):
     print("Can ride moderate roller coasters")
 elif (height > 60) and (age >= 18):
     print("Can ride light roller coasters")
+
+# This will print
+    # Even though age is NOT greater than or equal to 18, adult_permission is true and the height IS more than 50
 elif ((height > 50) and (age >= 18)) or ((adult_permission) and (height > 50)):
     print("Can ride bumper cars")
 else:

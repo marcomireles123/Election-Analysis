@@ -31,7 +31,10 @@ print(f'Hello my name is {my_pet["name"]} and I am {my_pet["age"]}.')
 print(f'I have {len(my_pet["hobbies"])} hobbies!') 
 
 # We use index numbering to retrieve a specific object in the hobbiest list
-    # In this case I am printing the second object "barking" which is index #1 
+    # In this case I am printing the second object "barking" which is index no. 1 
+        # my_pet is the dict.
+        # 'hobbies' is the list 
+        # [1] is the index no. of the object I want to retrieve
 print(f'My favorite hobbie is {my_pet["hobbies"][1]}.') 
 
 # Here to call a key-value pair of a dictionary within a dictionary you simply have to print the dictionary and then its key pair variable inside the dictionary

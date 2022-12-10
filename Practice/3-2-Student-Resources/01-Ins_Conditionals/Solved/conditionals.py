@@ -14,6 +14,8 @@ if y != 1:
     print("y is not equal to 1")
 
 # Checks if one value is less than another
+    # This conditional says: 'If x is less than y':
+        # print 'x is less than y'
 if x < y:
     print("x is less than y")
 

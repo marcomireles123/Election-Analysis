@@ -23,21 +23,28 @@ hourly_wage = 20
     # The new variable is daily_wage
         # Inside this variable is a formula 
             # We take the previous variable of 'hourly_wage' and multiply it by 8; the number of hours worked in a day
-            # When printed this will return an integer for daily_wage
+            # When printed this will return an integer for daily_wage; in this case 160
 daily_wage = hourly_wage * 8
+print(daily_wage)
 
 # Create a variable called 'satisfied' that holds a boolean
+    # The variable is 'satisfied'
+    # A boolean is a true or false statement 
+        # In this example it is true
 satisfied = True
 
 # Print out "Hello <name>!"
-# "Hello" is a string that we want printed out
-# name is the variable
-# "!" is also a string 
-# Effectively you are building a formula to print a desired statement
-# Make sure you leave a space after Hello and " otherwise Hello and the name will together
+    # "Hello" is a string that we want printed out
+    # <name> is the variable
+    # "!" is also part of the string 
+
+        # Effectively you are building a formula to print a desired statement
+        # Make sure you leave a space after Hello and " otherwise Hello and the name will together
 print("Hello " + name + "!")
 
 # Print out what country the user entered
+    # "Yoou live in the " is the string
+    # country is the variable from earlier 
 print("You live in the " + country)
 
 # Print out the user's age

@@ -16,7 +16,7 @@ grocery_list[3] = "Almond Butter"
 print(grocery_list)
 
 # Remove "Jelly" from grocery list and print out the updated list
-    # Use the .remove function followed by the object you want removed
+    # Use the .remove() function followed by the object string you want removed
 grocery_list.remove("Jelly")
 print(grocery_list)
 

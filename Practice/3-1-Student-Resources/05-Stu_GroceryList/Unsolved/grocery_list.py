@@ -21,7 +21,7 @@ grocery_list.remove("Jelly")
 print(grocery_list)
 
 # Add "Coffee" to grocery list and print the updated list
-    # Use the .append function followed by the object you want added
+    # Use the .append() function followed by the new object string you want to add
     # By default it will add these objects to the end of the list
 grocery_list.append("Coffee")
 print(grocery_list)

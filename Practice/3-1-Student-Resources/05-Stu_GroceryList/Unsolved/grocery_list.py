@@ -1,5 +1,8 @@
 # Create a Python list to store your grocery list
 # Lists are created using []
+    # The list is named 'grocery_list' 
+        # This list contains 5 string objects 
+        # As an index it would appear as 0-4
 grocery_list = ["Milk", "Bread", "Eggs", "Peanut Butter", "Jelly"]
 
 # Print the grocery list
@@ -8,7 +11,7 @@ print(grocery_list)
 
 # Change "Peanut Butter" to "Almond Butter" and print out the updated list
     # Index does not start with 1 it starts with 0 
-    # Peanut Butter is the 4 object so it is 3 in the index 
+        # Peanut Butter is the 4 object so it is no. 3 in the index 
 grocery_list[3] = "Almond Butter"
 print(grocery_list)
 

@@ -26,7 +26,7 @@ print(grocery_list)
 grocery_list.append("Coffee")
 print(grocery_list)
 
-# .index function followed by a specfici object inside the index 
+# Use the .index() function followed by a specific object inside the index 
     # Returns the index number in the list for that object
     # Milk is 0 since it is the first object in the list
 print(grocery_list.index("Milk"))

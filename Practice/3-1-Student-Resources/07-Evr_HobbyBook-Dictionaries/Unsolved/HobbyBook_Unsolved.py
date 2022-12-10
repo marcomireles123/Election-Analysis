@@ -1,4 +1,7 @@
 # @TODO: Your code here
+# Create a dictionary that has key-value pairs 
+    # Add a list
+    # Add a dictionary within the dictionary
 my_pet = {
     "name": "Lucky",
     "age": 10,

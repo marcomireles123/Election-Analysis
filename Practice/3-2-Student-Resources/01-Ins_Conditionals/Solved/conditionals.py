@@ -50,10 +50,17 @@ if x < 45 or y < 5:
     print("One or more of the statements were true")
 
 # Nested if statements
+    # In this case x IS less than 10 
 if x < 10:
+    
+    # y is NOT less than 5
     if y < 5:
         print("x is less than 10 and y is less than 5")
+    
+    # y does NOT equal to 5
     elif y == 5:
         print("x is less than 10 and y is equal to 5")
+    
+    # This is what will print, because it meets both conditionals 
     else:
         print("x is less than 10 and y is greater than 5")

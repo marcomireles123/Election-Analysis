@@ -2,6 +2,8 @@
 name = "Marco"
 
 # Create a variable called 'country' that holds a string
+    # Country is the variable
+    # The variable 'country' contains a string: 'United States of America'
 country = "United States of America"
 
 # Create a variable called 'age' that holds an integer

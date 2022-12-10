@@ -13,10 +13,13 @@ else:
 x = 5
 y = 10
 # This will print
+    # Length of "Dog" is 3
+    # the len() function with a string will tell you how many letters are within the string
 if len("Dog") < x:
     print("Question 2 works!")
 else:
     print("Still missing out")
+
 
 # 3.
 x = 2

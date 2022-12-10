@@ -5,13 +5,21 @@
 my_pet = {
     "name": "Lucky",
     "age": 10,
+    
+    # A list
     "hobbies": ["running", "barking", "sleeping"],
+    
+    # A dictionary
+        # That contains key-value pairs
     "wake_up": {"Monday": "7 am", "Tuesday": "8 am", "Wednesday": "9 am"
     }
 }
 
 # We use an f-string to convert any object into a string
-    # Refer to the dictionary and then the individual key-value pair you would like to print
+    # Refer to the dictionary and then the individual key-value pair you would like to print    
+        # This looks likek {my_pet['name']}
+            # my_pet is the dictionary that we createad
+            # 'name' is the key-value pair inside the dictionary 
 print(f'Hello my name is {my_pet["name"]} and I am {my_pet["age"]}.') 
 
 # Again using f-string so we do not have to convnert manually 

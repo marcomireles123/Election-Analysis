@@ -20,6 +20,8 @@ if x < y:
     print("x is less than y")
 
 # Checks if one value is greater than another
+    # This conditional says 'if y is greater than x':
+        # print 'y is greater than x'
 if y > x:
     print("y is greater than x")
 

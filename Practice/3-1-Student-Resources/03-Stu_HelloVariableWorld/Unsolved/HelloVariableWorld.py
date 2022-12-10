@@ -7,7 +7,9 @@ name = "Marco"
 country = "United States of America"
 
 # Create a variable called 'age' that holds an integer
-# Integers just hold the number, they do not need ""
+    # age is the variable
+    # Inside the variable 'age' is an integer: 25
+        # Integers just hold the number, they do not need ""
 age = 25
 
 # Create a variable called 'hourly_wage' that holds an integer

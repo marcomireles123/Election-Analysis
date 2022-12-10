@@ -2,10 +2,14 @@ x = 1
 y = 10
 
 # Checks if one value is equal to another
+    # This conditional says 'if x is equal to 1':
+        # print 'x is equal to 1'
 if x == 1:
     print("x is equal to 1")
 
 # Checks if one value is NOT equal to another
+    # This conditional says 'if y NOT equal to 1':
+        # print 'y is not equal to 1'
 if y != 1:
     print("y is not equal to 1")
 

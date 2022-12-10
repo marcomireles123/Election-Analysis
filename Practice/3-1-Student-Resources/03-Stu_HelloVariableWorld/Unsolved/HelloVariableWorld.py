@@ -13,9 +13,17 @@ country = "United States of America"
 age = 25
 
 # Create a variable called 'hourly_wage' that holds an integer
+    # The varibale is hourly_wage
+    # Inside the variable 'hourly_wage' is an integer: 20
 hourly_wage = 20
 
+
 # Calculate the daily wage for the user
+    # Create a variable that contains the formula to calcualte the daily wage
+    # The new variable is daily_wage
+        # Inside this variable is a formula 
+            # We take the previous variable of 'hourly_wage' and multiply it by 8; the number of hours worked in a day
+            # When printed this will return an integer for daily_wage
 daily_wage = hourly_wage * 8
 
 # Create a variable called 'satisfied' that holds a boolean

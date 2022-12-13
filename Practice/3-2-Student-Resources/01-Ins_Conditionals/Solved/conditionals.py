@@ -1,3 +1,4 @@
+# These are created variables that will be checked against in the code
 x = 1
 y = 10
 

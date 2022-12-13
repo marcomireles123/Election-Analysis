@@ -9,6 +9,7 @@ options = ["r", "p", "s"]
 
 # Computer Selection
 computer_choice = random.choice(options)
+print(computer_choice)
 
 # User Selection
 user_choice = input("Make your Choice: (r)ock, (p)aper, (s)cissors? ")

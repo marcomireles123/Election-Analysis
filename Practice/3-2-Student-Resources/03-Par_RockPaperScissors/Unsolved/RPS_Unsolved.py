@@ -15,3 +15,6 @@ print(computer_choice)
 user_choice = input("Make your Choice: (r)ock, (p)aper, (s)cissors? ")
 
 # Run Conditionals
+if (user_choice == "r" and computer_choice == "p"):
+    print("You chose rock. The computer chose paper.")
+    print("Sorry. You lose.")

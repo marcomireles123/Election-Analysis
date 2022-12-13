@@ -5,6 +5,7 @@ for x in range(5):
 print("-----------------------------------------")
 
 # Loop through a range of numbers (2 through 6 - yes 6! Up to, but not including, 7)
+    # This will only print 2-6 and not 7
 for x in range(2, 7):
     print(x)
 

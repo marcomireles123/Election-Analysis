@@ -1,7 +1,12 @@
 # Loop through a range of numbers (0 through 4)
+    # This will print out 0-4 
+    # With index numbering there are 5 numbers
 for x in range(5):
     print(x)
 
+# This is simply for organizing the prints 
+    # Otherwise there would be no spacing between them and all the numbers would be close together 
+        # Makes the final output harder to read without this line 
 print("-----------------------------------------")
 
 # Loop through a range of numbers (2 through 6 - yes 6! Up to, but not including, 7)
@@ -12,6 +17,7 @@ for x in range(2, 7):
 print("----------------------------------------")
 
 # Iterate through letters in a string
+    # This will print out the individual letters in "Peace" 
 word = "Peace"
 for letters in word:
     print(letters)
@@ -19,6 +25,7 @@ for letters in word:
 print("----------------------------------------")
 
 # Iterate through a list
+    # This will print out the individual string objects from the list and assign it to a new variable 'animal' at the same time
 zoo = ["cow", "dog", "bee", "zebra"]
 for animal in zoo:
     print(animal)
@@ -31,3 +38,4 @@ run = "y"
 while run == "y":
     print("Hi!")
     run = input("To run again. Enter 'y'")
+

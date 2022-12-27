@@ -5,6 +5,8 @@ import os
 
 # Module for reading CSV files
     # This utilizes csv reader to translate the object being opened
+    # Take note of the delimiter=' ' parameter
+        # This tells python that each comma within the CSV should be seen as moving into a new column for a row
 import csv
 
 csvpath = os.path.join('..', 'Resources', 'accounting.csv')

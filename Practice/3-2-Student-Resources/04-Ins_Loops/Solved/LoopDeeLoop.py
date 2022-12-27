@@ -1,5 +1,6 @@
 # Loop through a range of numbers (0 through 4)
     # This will print out 0-4 
+        # Index starts with 0
     # With index numbering there are 5 numbers
 for x in range(5):
     print(x)
@@ -37,5 +38,7 @@ run = "y"
 
 while run == "y":
     print("Hi!")
+
+    # the input will appear in the ' ' quotations
     run = input("To run again. Enter 'y'")
 

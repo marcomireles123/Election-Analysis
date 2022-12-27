@@ -9,6 +9,7 @@ import os
         # This tells python that each comma within the CSV should be seen as moving into a new column for a row
 import csv
 
+# Locating the CSV to open
 csvpath = os.path.join('..', 'Resources', 'accounting.csv')
 
 # # Method 1: Plain Reading of CSV files

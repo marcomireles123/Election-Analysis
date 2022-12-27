@@ -1,6 +1,9 @@
 # Initial variable to track game play
 user_play = "y"
 
+# Set a start and last number
+start_Number = 0
+
 # While we are still playing...
 while user_play == "y":
 

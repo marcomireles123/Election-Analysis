@@ -1,6 +1,8 @@
 # First we'll import the os module
 # This will allow us to create file paths across operating systems
+    # Creates dynamic paths to external files that function across different OS's
 import os
+
 # Module for reading CSV files
 import csv
 

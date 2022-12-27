@@ -4,6 +4,7 @@
 import os
 
 # Module for reading CSV files
+    # This utilizes csv reader to translate the object being opened
 import csv
 
 csvpath = os.path.join('..', 'Resources', 'accounting.csv')

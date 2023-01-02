@@ -78,6 +78,8 @@ counties = ['Arapahoe', 'Denver', 'Jefferson']
 counties
 
 # 3.2.5 Index Lists
+    # Indexing starts at 0. Therefore, the index of the first item is 0, the index of the second number is 1, and so on
+    # Because indexing begins at 0, the index of the last item in a list is 1 less than the number of items in the list
 
 # To get the 1st item in a list you will use 0
     # This returns Arapahoe which is the first county in the counties list

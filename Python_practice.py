@@ -123,5 +123,16 @@ counties
 counties.remove('El Paso')
 counties
 
+# Use .pop() method to specify which object you want to remove relative to its index position in the list
+    # El paso is 4th in the list so its index is 3
 counties.pop(3)
+counties
+
+# Change an element in a list 
+    # You can change items in a list using syntax list[index] = obj
+    # obj is what you want to change the current item for
+
+# The object @ index 2 in the list counties will be changed to El Paso
+    # Jefferson was changed to El Paso
+counties[2] = 'El Paso'
 counties

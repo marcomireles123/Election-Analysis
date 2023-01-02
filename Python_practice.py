@@ -107,3 +107,21 @@ counties[1:3]
 # This has now added El Paso to the existing counties list
 counties.append('El Paso')
 counties
+
+# Using the syntax list.index(index, obj) we have specified where in the list we want to add the new object 
+    # Use this instead of defaulting to the last index in the list
+    # insert() is the function
+    # list.insert(index, obj) is the syntax
+    # list = the list you want to maniupate
+    # insert = function
+    # index = the position where you want the object at 
+    # obj = the string, boolean, integer you want to add 
+counties.insert(2, 'El Paso')
+counties
+
+# Using .remove() we can remove one instance of the obj in the list
+counties.remove('El Paso')
+counties
+
+counties.pop(3)
+counties

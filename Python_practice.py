@@ -83,4 +83,20 @@ counties
 
 # To get the 1st item in a list you will use 0
     # This returns Arapahoe which is the first county in the counties list
+    # Alt code: print(counties[2])
 counties[0]
+
+# 3.2.5 Find the length of a list
+    # Use the len() function and then add the 'list' inside the parantheses 
+
+# Output here will be 3
+len(counties)
+
+# 3.2.5 Slice lists
+    # Use the list[start : end] function to slice a list
+    # 'start' refers to the index of the 1st item slice
+    # 'end' is the index marking the end slice 
+
+# This will return everything but not including the index 2 
+counties[0:2]
+counties[1:3]

@@ -69,3 +69,6 @@ won_election = True
 5 + (9 * 3 / 2 - 4)
 
 5 + (9 * 3 / (2 - 4))
+
+# 3.2.5 Data structures (lists)
+counties = ['Arapahoe', 'Denver', 'Jefferson']

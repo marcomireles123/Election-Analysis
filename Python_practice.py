@@ -71,4 +71,14 @@ won_election = True
 5 + (9 * 3 / (2 - 4))
 
 # 3.2.5 Data structures (lists)
+
+# Ensure you run the list after typing it out
+    # Otherwise when trying to print or recall the list, you will get an error that the list was not defined
 counties = ['Arapahoe', 'Denver', 'Jefferson']
+counties
+
+# 3.2.5 Index Lists
+
+# To get the 1st item in a list you will use 0
+    # This returns Arapahoe which is the first county in the counties list
+counties[0]

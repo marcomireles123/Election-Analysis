@@ -100,3 +100,10 @@ len(counties)
 # This will return everything but not including the index 2 
 counties[0:2]
 counties[1:3]
+
+# 3.2.5 add items to a list
+    # Use the append() function and syntax list.append()
+
+# This has now added El Paso to the existing counties list
+counties.append('El Paso')
+counties

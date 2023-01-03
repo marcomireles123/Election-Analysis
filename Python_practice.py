@@ -136,3 +136,15 @@ counties
     # Jefferson was changed to El Paso
 counties[2] = 'El Paso'
 counties
+
+# 3.2.7 Dictionaries
+counties_dict = {}
+counties_dict
+
+counties_dict['Arapahoe']=422829
+counties_dict['Denver']=463353
+counties_dict['Jefferson']=432438
+counties_dict
+
+# Get the length of a dictionary using len() function
+len(counties_dict)

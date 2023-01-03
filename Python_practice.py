@@ -138,9 +138,13 @@ counties[2] = 'El Paso'
 counties
 
 # 3.2.7 Dictionaries
+
+# Create an empty dictionary using my_dict = {} syntax
 counties_dict = {}
 counties_dict
 
+# Add the counties and their voters to the dictionary
+    # The county is the key and the voter count is the value (key: value pair)
 counties_dict['Arapahoe']=422829
 counties_dict['Denver']=463353
 counties_dict['Jefferson']=432438

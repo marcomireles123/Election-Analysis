@@ -183,4 +183,11 @@ voting_data.insert(1, {"county":"El Paso", "registered_voters": 461149})
 
 # Remove “Arapahoe” and its registered voters from voting_data
 voting_data.remove({"county":"Arapahoe", "registered_voters": 422829})
+
+# Make “Denver” and its registered voters the third item in voting_data, but keep “Jefferson” and its registered voters as the second item
+voting_data.remove({'county': 'Jefferson', 'registered_voters': 432438})
+voting_data.insert(1, {'county': 'Jefferson', 'registered_voters': 432438})
+
+# Add “Arapahoe” and its registered voters to voting_data
+voting_data.append({"county":"Arapahoe", "registered_voters": 422829})
 voting_data

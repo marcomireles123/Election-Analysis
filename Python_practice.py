@@ -156,3 +156,9 @@ len(counties_dict)
 # Print all key, value pairs using .items() function
     # Tuples will be the output, 1st element is the key and 2nd element is the value
 counties_dict.items()
+
+# Get only the keys using .keys() function 
+counties_dict.keys()
+
+# Get only the values using .values() function
+counties_dict.values()

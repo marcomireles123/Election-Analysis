@@ -180,4 +180,7 @@ voting_data
 
 # Add the new county “El Paso” and its registered voters, 461149, to the second position in voting_data
 voting_data.insert(1, {"county":"El Paso", "registered_voters": 461149})
+
+# Remove “Arapahoe” and its registered voters from voting_data
+voting_data.remove({"county":"Arapahoe", "registered_voters": 422829})
 voting_data

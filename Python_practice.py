@@ -241,3 +241,27 @@ elif score >= 60:
     print('Your grade is a D.')
 else:
     print('Your grade is an F.')
+
+# 3.2.9 Membership and Logical Operators
+
+# Membership Operators
+counties = ["Arapahoe","Denver","Jefferson"]
+    # The operator 'in' states that we are trying to determine if El Paso is in the list of counties
+if "El Paso" in counties:
+    print("El Paso is in the list of counties.")
+else:
+    print("El Paso is not the list of counties.")
+
+# Logical Operators
+    # Operators are 'and', 'or', 'not'
+if "Arapahoe" in counties and "El Paso" in counties:
+    print("Arapahoe and El Paso are in the list of counties.")
+else:
+    print("Arapahoe or El Paso is not in the list of counties.")
+
+# Here we changed the operator to 'or' instead of 'and'
+    # Now the statement will only check if one or the other county is included
+if "Arapahoe" in counties or "El Paso" in counties:
+    print("Arapahoe or El Paso is in the list of counties.")
+else:
+    print("Arapahoe and El Paso are not in the list of counties.")

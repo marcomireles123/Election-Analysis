@@ -152,3 +152,7 @@ counties_dict
 
 # Get the length of a dictionary using len() function
 len(counties_dict)
+
+# Print all key, value pairs using .items() function
+    # Tuples will be the output, 1st element is the key and 2nd element is the value
+counties_dict.items()

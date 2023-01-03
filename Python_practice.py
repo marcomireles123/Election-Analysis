@@ -162,3 +162,22 @@ counties_dict.keys()
 
 # Get only the values using .values() function
 counties_dict.values()
+
+# Get a specific value using .get()
+    # Where inside the parentheses you can put a key and output its value
+counties_dict.get('Denver')
+    # Alt code
+    # counties_dict['Denver']
+
+# List of dictionaries
+
+# Make an empty list 
+voting_data=[]
+voting_data.append({"county":"Arapahoe", "registered_voters": 422829})
+voting_data.append({"county":"Denver", "registered_voters": 463353})
+voting_data.append({"county":"Jefferson", "registered_voters": 432438})
+voting_data
+
+# Add the new county “El Paso” and its registered voters, 461149, to the second position in voting_data
+voting_data.insert(1, {"county":"El Paso", "registered_voters": 461149})
+voting_data

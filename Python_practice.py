@@ -301,3 +301,14 @@ for num in range(5):
 # We iterate through the list where the variable i = 0 where 'Arapahoe' is printed and so on until all the strings in counties are printed 
 for i in range(len(counties)):
     print(counties[i])
+
+# Iterate Through a Dictionary
+counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+
+# Get the Keys of a Dictionary
+for county in counties_dict:
+    print(county)
+
+# Use the keys() method
+for county in counties_dict.keys():
+    print(county)

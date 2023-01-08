@@ -275,3 +275,9 @@ while x <= 5:
     print(x)
     # We increment the value of x by 1 using this operation
     x = x+1
+
+# Hello world will not be printed in this loop because count is 7 
+    # 7 is not less than 1
+count = 7
+while count  < 1:
+    print("Hello World")

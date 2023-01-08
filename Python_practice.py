@@ -265,3 +265,13 @@ if "Arapahoe" in counties or "El Paso" in counties:
     print("Arapahoe or El Paso is in the list of counties.")
 else:
     print("Arapahoe and El Paso are not in the list of counties.")
+
+# 3.2.10 Repition Statements
+
+# While loops
+    # Once x is greater than 5 the loop stops
+x = 0
+while x <= 5:
+    print(x)
+    # We increment the value of x by 1 using this operation
+    x = x+1

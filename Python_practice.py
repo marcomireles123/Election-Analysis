@@ -281,3 +281,23 @@ while x <= 5:
 count = 7
 while count  < 1:
     print("Hello World")
+
+# For loops
+for county in counties:
+    print(county)
+
+numbers = [0, 1, 2, 3, 4]
+for num in numbers:
+    print(num)
+
+# Much simpler version of the code preceeding it
+    # Instead of a for loop we use the range() method
+    # Eliminates having to create a list and declaring it
+for num in range(5):
+    print(num)
+
+# Variable i is used to indicate the values 0, 1, and 2
+# Inside the range function we get the length of the list in counties which is the integer 3
+# We iterate through the list where the variable i = 0 where 'Arapahoe' is printed and so on until all the strings in counties are printed 
+for i in range(len(counties)):
+    print(counties[i])

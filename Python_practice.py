@@ -312,3 +312,27 @@ for county in counties_dict:
 # Use the keys() method
 for county in counties_dict.keys():
     print(county)
+
+# Get the Values of a Dictionary
+
+# Use the values() method
+for voters in counties_dict.values():
+    print(voters)
+
+# Use the get() method
+for county in counties_dict:
+    print(counties_dict.get(county))
+
+# Get the Key-Value Pairs of a Dictionary
+
+# Use the items() method
+for county, voters in counties_dict.items():
+    print(county, voters)
+
+# Get Each Dictionary in a List of Dictionaries
+voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
+                {"county":"Denver", "registered_voters": 463353},
+                {"county":"Jefferson", "registered_voters": 432438}]
+
+for county_dict in voting_data:
+    print(county_dict)

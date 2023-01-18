@@ -5,6 +5,7 @@
 # 4 The total number of votes each candidate won
 # 5 The winner of the election based on popular vote
 
+# Add dependencies
 import csv
 import os
 
@@ -13,9 +14,22 @@ file_to_load = r"C:\Users\Marco\Desktop\Boot_Camp\Module 3\Election-Analysis\Res
 
 # Open the election results and read the file.
 with open(file_to_load) as election_data:
+     # To do: read and analyze the data here
+    # Read the file object with the reader function.
+    file_reader = csv.reader(election_data)
 
-    # Print the file object.
-     print(election_data)
+    # Read and print the header row.
+    headers = next(file_reader)
+    print(headers)
+
+# Print the file object.
+    print(election_data)
+
+
+
+# Print each row in the CSV file.
+for row in file_reader:
+    print(row)
 
 # Create a filename variable to a direct or indirect path to the file.
 file_to_save = os.path.join("analysis", "election_analysis.txt")

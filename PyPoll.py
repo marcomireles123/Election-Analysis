@@ -20,11 +20,8 @@ with open(file_to_load) as election_data:
 # Create a filename variable to a direct or indirect path to the file.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
-# Use the open statement to open the file as a text file.
-outfile = open(file_to_save, "w")
-# Write some data to the file.
-outfile.write("Hello World")
+# Using the with statement open the file as a text file.
+with open(file_to_save, "w") as txt_file:
 
-# Close the file
-outfile.close()
-
+    # Write three counties to the file.
+     txt_file.write("Counties in the election\n-------------------------\nArapahoe\nDenver\nJefferson")
